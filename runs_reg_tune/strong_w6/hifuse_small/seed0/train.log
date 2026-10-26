@@ -1,0 +1,21 @@
+
+===== hifuse_small seed 0 | 2026-10-13 07:44:39 =====
+train:  5468 images |  4211 lesions | mel  778 (0.142)
+val  :  1177 images |   903 lesions | mel  170 (0.144)
+test :  1173 images |   903 lesions | mel  165 (0.141)
+hifuse_small: 123.26M params | NVIDIA GeForce RTX 5060 | amp torch.bfloat16 | 5456 training samples/epoch | drop_path 0.2 dropout 0.1 wd 0.05 | imbalance weighted_loss (melanoma weight 6.0)
+ep   1 | train loss 0.6323 acc 0.6518 | val loss 0.3835 bacc 0.6603 auprc 0.4306 auroc 0.7931 | gap -0.249 | 4.5GB 3min  *best
+ep   2 | train loss 0.5875 acc 0.6921 | val loss 0.4399 bacc 0.6949 auprc 0.4058 auroc 0.7739 | gap -0.148 | 4.3GB 5min
+ep   3 | train loss 0.5473 acc 0.7264 | val loss 0.3416 bacc 0.6669 auprc 0.4547 auroc 0.8121 | gap -0.206 | 4.3GB 6min  *best
+ep   4 | train loss 0.5246 acc 0.7304 | val loss 0.4191 bacc 0.7599 auprc 0.5308 auroc 0.8544 | gap -0.105 | 4.3GB 7min
+ep   5 | train loss 0.5109 acc 0.7396 | val loss 0.4840 bacc 0.7651 auprc 0.5120 auroc 0.8663 | gap -0.027 | 4.3GB 9min
+ep   6 | train loss 0.5042 acc 0.7465 | val loss 0.3093 bacc 0.7348 auprc 0.5764 auroc 0.8777 | gap -0.195 | 4.3GB 10min  *best
+ep   7 | train loss 0.4776 acc 0.7614 | val loss 0.5565 bacc 0.7671 auprc 0.5341 auroc 0.8742 | gap +0.079 | 4.3GB 11min
+ep   8 | train loss 0.4639 acc 0.7592 | val loss 0.4360 bacc 0.8182 auprc 0.6119 auroc 0.8990 | gap -0.028 | 4.3GB 13min
+ep   9 | train loss 0.4600 acc 0.7581 | val loss 0.3700 bacc 0.7700 auprc 0.5820 auroc 0.8869 | gap -0.090 | 4.3GB 14min
+ep  10 | train loss 0.4505 acc 0.7595 | val loss 0.3313 bacc 0.8133 auprc 0.6256 auroc 0.9014 | gap -0.119 | 4.3GB 15min
+ep  11 | train loss 0.4448 acc 0.7769 | val loss 0.4156 bacc 0.8115 auprc 0.6005 auroc 0.8962 | gap -0.029 | 4.3GB 17min
+ep  12 | train loss 0.4413 acc 0.7782 | val loss 0.3363 bacc 0.8055 auprc 0.6549 auroc 0.9017 | gap -0.105 | 4.3GB 18min
+ep  13 | train loss 0.4241 acc 0.7885 | val loss 0.3684 bacc 0.8228 auprc 0.6610 auroc 0.9139 | gap -0.056 | 4.3GB 19min
+early stop: no val loss improvement for 7 epochs
+best epoch 6 | test@0.5 bacc 0.6836 auprc 0.4415 | 23 min | saved to runs_reg_tune\strong_w6\hifuse_small\seed0

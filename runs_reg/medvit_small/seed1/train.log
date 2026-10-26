@@ -1,0 +1,37 @@
+
+===== medvit_small seed 1 | 2026-10-13 10:48:30 =====
+train:  5468 images |  4211 lesions | mel  778 (0.142)
+val  :  1177 images |   903 lesions | mel  170 (0.144)
+test :  1173 images |   903 lesions | mel  165 (0.141)
+medvit_small: 31.14M params | NVIDIA GeForce RTX 5060 | amp torch.bfloat16 | 5456 training samples/epoch | drop_path 0.2 dropout 0.1 wd 0.05 | imbalance weighted_loss (melanoma weight 2.0)
+ep   1 | train loss 0.6503 acc 0.6241 | clean train loss 0.5108 bacc 0.7611 | val loss 0.5226 bacc 0.7230 auprc 0.4765 auroc 0.7948 | gap +0.012 | 3.5GB 4min  *best
+ep   2 | train loss 0.5884 acc 0.6990 | clean train loss 0.5325 bacc 0.7974 | val loss 0.5383 bacc 0.7455 auprc 0.5326 auroc 0.8382 | gap +0.006 | 3.5GB 6min
+ep   3 | train loss 0.5090 acc 0.7835 | clean train loss 0.4871 bacc 0.8245 | val loss 0.4834 bacc 0.8032 auprc 0.6428 auroc 0.9078 | gap -0.004 | 3.5GB 7min  *best
+ep   4 | train loss 0.4339 acc 0.8398 | clean train loss 0.4796 bacc 0.8145 | val loss 0.4646 bacc 0.7984 auprc 0.6255 auroc 0.8980 | gap -0.015 | 3.5GB 9min  *best
+ep   5 | train loss 0.3977 acc 0.8572 | clean train loss 0.2933 bacc 0.7439 | val loss 0.2928 bacc 0.7354 auprc 0.6166 auroc 0.8965 | gap -0.000 | 3.5GB 11min  *best
+ep   6 | train loss 0.3771 acc 0.8666 | clean train loss 0.3111 bacc 0.8011 | val loss 0.3149 bacc 0.8028 auprc 0.6460 auroc 0.9099 | gap +0.004 | 3.5GB 12min
+ep   7 | train loss 0.3651 acc 0.8679 | clean train loss 0.2718 bacc 0.7618 | val loss 0.2748 bacc 0.7613 auprc 0.6424 auroc 0.9010 | gap +0.003 | 3.5GB 14min  *best
+ep   8 | train loss 0.3551 acc 0.8713 | clean train loss 0.3018 bacc 0.7797 | val loss 0.3113 bacc 0.7733 auprc 0.6292 auroc 0.8979 | gap +0.009 | 3.5GB 15min
+ep   9 | train loss 0.3541 acc 0.8664 | clean train loss 0.2759 bacc 0.7567 | val loss 0.2808 bacc 0.7751 auprc 0.6508 auroc 0.9054 | gap +0.005 | 3.5GB 16min
+ep  10 | train loss 0.3500 acc 0.8680 | clean train loss 0.2553 bacc 0.7689 | val loss 0.2714 bacc 0.7618 auprc 0.6497 auroc 0.8960 | gap +0.016 | 3.5GB 17min  *best
+ep  11 | train loss 0.3456 acc 0.8697 | clean train loss 0.3383 bacc 0.8150 | val loss 0.3526 bacc 0.7990 auprc 0.6354 auroc 0.8969 | gap +0.014 | 3.5GB 18min
+ep  12 | train loss 0.3395 acc 0.8781 | clean train loss 0.2379 bacc 0.7525 | val loss 0.2458 bacc 0.7728 auprc 0.6682 auroc 0.9104 | gap +0.008 | 3.5GB 19min  *best
+ep  13 | train loss 0.3319 acc 0.8726 | clean train loss 0.2524 bacc 0.7498 | val loss 0.2542 bacc 0.7796 auprc 0.6845 auroc 0.9113 | gap +0.002 | 3.5GB 20min
+ep  14 | train loss 0.3371 acc 0.8812 | clean train loss 0.2513 bacc 0.7768 | val loss 0.2673 bacc 0.7756 auprc 0.6557 auroc 0.9021 | gap +0.016 | 3.5GB 22min
+ep  15 | train loss 0.3384 acc 0.8728 | clean train loss 0.2467 bacc 0.7816 | val loss 0.2540 bacc 0.7756 auprc 0.6851 auroc 0.9183 | gap +0.007 | 3.5GB 23min
+ep  16 | train loss 0.3271 acc 0.8779 | clean train loss 0.2626 bacc 0.8294 | val loss 0.2762 bacc 0.8033 auprc 0.6891 auroc 0.9166 | gap +0.014 | 3.5GB 24min
+ep  17 | train loss 0.3299 acc 0.8798 | clean train loss 0.2235 bacc 0.7722 | val loss 0.2426 bacc 0.7845 auprc 0.6967 auroc 0.9115 | gap +0.019 | 3.5GB 25min  *best
+ep  18 | train loss 0.3141 acc 0.8862 | clean train loss 0.2349 bacc 0.8048 | val loss 0.2557 bacc 0.7878 auprc 0.6679 auroc 0.9128 | gap +0.021 | 3.5GB 26min
+ep  19 | train loss 0.3210 acc 0.8843 | clean train loss 0.2522 bacc 0.8407 | val loss 0.2641 bacc 0.8298 auprc 0.7207 auroc 0.9263 | gap +0.012 | 3.5GB 27min
+ep  20 | train loss 0.3101 acc 0.8853 | clean train loss 0.2291 bacc 0.8080 | val loss 0.2508 bacc 0.7843 auprc 0.6828 auroc 0.9167 | gap +0.022 | 3.5GB 28min
+ep  21 | train loss 0.3022 acc 0.8882 | clean train loss 0.2361 bacc 0.8280 | val loss 0.2556 bacc 0.7970 auprc 0.6984 auroc 0.9228 | gap +0.020 | 3.5GB 29min
+ep  22 | train loss 0.2963 acc 0.8862 | clean train loss 0.2272 bacc 0.8398 | val loss 0.2590 bacc 0.8181 auprc 0.7007 auroc 0.9216 | gap +0.032 | 3.5GB 30min
+ep  23 | train loss 0.2974 acc 0.8860 | clean train loss 0.2178 bacc 0.8288 | val loss 0.2428 bacc 0.8187 auprc 0.7086 auroc 0.9260 | gap +0.025 | 3.5GB 31min
+ep  24 | train loss 0.2897 acc 0.8902 | clean train loss 0.2078 bacc 0.8161 | val loss 0.2425 bacc 0.7893 auprc 0.6793 auroc 0.9218 | gap +0.035 | 3.5GB 32min  *best
+ep  25 | train loss 0.2846 acc 0.8942 | clean train loss 0.2128 bacc 0.8361 | val loss 0.2473 bacc 0.8020 auprc 0.6932 auroc 0.9221 | gap +0.034 | 3.5GB 33min
+ep  26 | train loss 0.2791 acc 0.9005 | clean train loss 0.2151 bacc 0.8437 | val loss 0.2472 bacc 0.8127 auprc 0.7078 auroc 0.9262 | gap +0.032 | 3.5GB 34min
+ep  27 | train loss 0.2774 acc 0.9025 | clean train loss 0.2074 bacc 0.8414 | val loss 0.2426 bacc 0.8064 auprc 0.7073 auroc 0.9248 | gap +0.035 | 3.5GB 35min
+ep  28 | train loss 0.2765 acc 0.8972 | clean train loss 0.2200 bacc 0.8544 | val loss 0.2564 bacc 0.8195 auprc 0.7083 auroc 0.9245 | gap +0.036 | 3.5GB 36min
+ep  29 | train loss 0.2765 acc 0.8966 | clean train loss 0.2057 bacc 0.8383 | val loss 0.2430 bacc 0.8035 auprc 0.7067 auroc 0.9233 | gap +0.037 | 3.5GB 37min
+ep  30 | train loss 0.2748 acc 0.9016 | clean train loss 0.2058 bacc 0.8439 | val loss 0.2442 bacc 0.8083 auprc 0.7013 auroc 0.9236 | gap +0.038 | 3.5GB 38min
+best epoch 24 | test@0.5 bacc 0.7864 auprc 0.6489 | 40 min | saved to runs_reg\medvit_small\seed1

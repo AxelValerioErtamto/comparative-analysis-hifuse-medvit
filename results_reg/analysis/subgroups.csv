@@ -1,0 +1,59 @@
+model,attribute,value,mel_images,nv_images,mel_recall,nv_specificity
+hifuse_small,dx_type,consensus,0,88,,0.9545454545454546
+hifuse_small,dx_type,follow_up,0,556,,1.0
+hifuse_small,dx_type,histo,165,364,0.509090909090909,0.8598901098901099
+hifuse_small,images_per_lesion,multi-image,130,345,0.46923076923076923,0.8724637681159421
+hifuse_small,images_per_lesion,single image,35,663,0.6571428571428571,0.9834087481146304
+hifuse_small,localization,abdomen,22,128,0.3181818181818182,0.984375
+hifuse_small,localization,back,38,202,0.5789473684210527,0.8960396039603961
+hifuse_small,localization,chest,18,23,0.5,0.9565217391304348
+hifuse_small,localization,ear,3,6,0.3333333333333333,0.5
+hifuse_small,localization,face,14,13,0.7142857142857143,0.8461538461538461
+hifuse_small,localization,foot,4,50,0.0,0.96
+hifuse_small,localization,genital,0,9,,0.7777777777777778
+hifuse_small,localization,hand,0,13,,1.0
+hifuse_small,localization,lower extremity,22,211,0.5454545454545454,0.9715639810426541
+hifuse_small,localization,neck,3,20,0.6666666666666666,0.8
+hifuse_small,localization,scalp,1,6,0.0,1.0
+hifuse_small,localization,trunk,8,191,0.625,1.0
+hifuse_small,localization,unknown,0,29,,0.9310344827586207
+hifuse_small,localization,upper extremity,32,107,0.5,0.9065420560747663
+hifuse_small,age_group,<40,13,259,0.15384615384615385,0.9343629343629344
+hifuse_small,age_group,40-59,46,525,0.43478260869565216,0.9676190476190476
+hifuse_small,age_group,>=60,106,217,0.5849056603773585,0.9032258064516129
+hifuse_small,sex,female,55,496,0.38181818181818183,0.9455645161290323
+hifuse_small,sex,male,110,503,0.5727272727272728,0.9443339960238568
+hifuse_small,sex,unknown,0,9,,1.0
+hifuse_small,dataset,rosendahl,52,117,0.4423076923076923,0.8547008547008547
+hifuse_small,dataset,vidir_modern,98,286,0.5714285714285714,0.8776223776223776
+hifuse_small,dataset,vidir_molemax,3,557,0.0,1.0
+hifuse_small,dataset,vienna_dias,12,48,0.4166666666666667,0.9375
+medvit_small,dx_type,consensus,0,88,,0.9431818181818182
+medvit_small,dx_type,follow_up,0,556,,1.0
+medvit_small,dx_type,histo,165,364,0.593939393939394,0.8653846153846154
+medvit_small,images_per_lesion,multi-image,130,345,0.5615384615384615,0.8782608695652174
+medvit_small,images_per_lesion,single image,35,663,0.7142857142857143,0.9819004524886877
+medvit_small,localization,abdomen,22,128,0.5,0.96875
+medvit_small,localization,back,38,202,0.631578947368421,0.8960396039603961
+medvit_small,localization,chest,18,23,0.5,0.9565217391304348
+medvit_small,localization,ear,3,6,0.6666666666666666,0.8333333333333334
+medvit_small,localization,face,14,13,0.6428571428571429,0.8461538461538461
+medvit_small,localization,foot,4,50,0.0,0.96
+medvit_small,localization,genital,0,9,,0.7777777777777778
+medvit_small,localization,hand,0,13,,1.0
+medvit_small,localization,lower extremity,22,211,0.5909090909090909,0.985781990521327
+medvit_small,localization,neck,3,20,0.6666666666666666,0.8
+medvit_small,localization,scalp,1,6,0.0,0.8333333333333334
+medvit_small,localization,trunk,8,191,0.875,1.0
+medvit_small,localization,unknown,0,29,,0.9310344827586207
+medvit_small,localization,upper extremity,32,107,0.65625,0.897196261682243
+medvit_small,age_group,<40,13,259,0.3076923076923077,0.9459459459459459
+medvit_small,age_group,40-59,46,525,0.5434782608695652,0.9657142857142857
+medvit_small,age_group,>=60,106,217,0.6509433962264151,0.8986175115207373
+medvit_small,sex,female,55,496,0.45454545454545453,0.9576612903225806
+medvit_small,sex,male,110,503,0.6636363636363637,0.9343936381709741
+medvit_small,sex,unknown,0,9,,1.0
+medvit_small,dataset,rosendahl,52,117,0.6153846153846154,0.8717948717948718
+medvit_small,dataset,vidir_modern,98,286,0.6530612244897959,0.8811188811188811
+medvit_small,dataset,vidir_molemax,3,557,0.0,1.0
+medvit_small,dataset,vienna_dias,12,48,0.16666666666666666,0.8958333333333334

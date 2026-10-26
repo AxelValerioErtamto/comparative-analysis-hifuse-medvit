@@ -1,0 +1,66 @@
+{
+  "seed": 42,
+  "n_images": 7818,
+  "n_lesions": 6017,
+  "lesions_with_multiple_images": 1372,
+  "images_in_multi_image_lesions": 3173,
+  "max_images_per_lesion": 6,
+  "per_class": {
+    "nv": {
+      "images": 6705,
+      "lesions": 5403,
+      "lesions_with_multiple_images": 988
+    },
+    "mel": {
+      "images": 1113,
+      "lesions": 614,
+      "lesions_with_multiple_images": 384
+    }
+  },
+  "partition": [
+    {
+      "split": "train",
+      "nv_images": 4690,
+      "mel_images": 778,
+      "total_images": 5468,
+      "nv_lesions": 3781,
+      "mel_lesions": 430,
+      "total_lesions": 4211,
+      "pct_images": 69.9,
+      "mel_prevalence_images": 0.1423
+    },
+    {
+      "split": "val",
+      "nv_images": 1007,
+      "mel_images": 170,
+      "total_images": 1177,
+      "nv_lesions": 811,
+      "mel_lesions": 92,
+      "total_lesions": 903,
+      "pct_images": 15.1,
+      "mel_prevalence_images": 0.1444
+    },
+    {
+      "split": "test",
+      "nv_images": 1008,
+      "mel_images": 165,
+      "total_images": 1173,
+      "nv_lesions": 811,
+      "mel_lesions": 92,
+      "total_lesions": 903,
+      "pct_images": 15.0,
+      "mel_prevalence_images": 0.1407
+    }
+  ],
+  "old_image_level_split_leak": {
+    "test_images": 1173,
+    "test_images_whose_lesion_is_also_in_train": 385,
+    "pct_test_images_leaked": 32.82,
+    "pct_test_melanoma_images_leaked": 62.28
+  },
+  "identical_file_check": {
+    "checked": true,
+    "identical_file_groups": 2,
+    "groups_crossing_splits": 0
+  }
+}

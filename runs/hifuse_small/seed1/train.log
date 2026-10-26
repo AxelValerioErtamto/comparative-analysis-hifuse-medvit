@@ -1,0 +1,31 @@
+
+===== hifuse_small seed 1 | 2026-10-12 13:26:21 =====
+train:  5468 images |  4211 lesions | mel  778 (0.142)
+val  :  1177 images |   903 lesions | mel  170 (0.144)
+test :  1173 images |   903 lesions | mel  165 (0.141)
+hifuse_small: 123.26M params | NVIDIA GeForce RTX 5060 | amp torch.bfloat16 | 9376 training samples/epoch
+ep   1 | train loss 0.5229 acc 0.7410 | val loss 0.4950 bacc 0.7659 auprc 0.5293 auroc 0.8569 | gap -0.028 | 4.4GB 4min  *best
+ep   2 | train loss 0.4814 acc 0.7567 | val loss 0.5924 bacc 0.7403 auprc 0.5082 auroc 0.8376 | gap +0.111 | 4.3GB 6min
+ep   3 | train loss 0.4464 acc 0.7793 | val loss 0.4786 bacc 0.7802 auprc 0.5719 auroc 0.8699 | gap +0.032 | 4.3GB 8min  *best
+ep   4 | train loss 0.4232 acc 0.7943 | val loss 0.3256 bacc 0.7606 auprc 0.5981 auroc 0.8795 | gap -0.098 | 4.3GB 11min  *best
+ep   5 | train loss 0.4211 acc 0.7927 | val loss 0.4776 bacc 0.8070 auprc 0.6233 auroc 0.9063 | gap +0.057 | 4.3GB 13min
+ep   6 | train loss 0.4088 acc 0.8018 | val loss 0.3980 bacc 0.8162 auprc 0.6357 auroc 0.9093 | gap -0.011 | 4.3GB 15min
+ep   7 | train loss 0.3950 acc 0.8078 | val loss 0.5165 bacc 0.8161 auprc 0.6500 auroc 0.9056 | gap +0.121 | 4.3GB 17min
+ep   8 | train loss 0.3824 acc 0.8234 | val loss 0.3717 bacc 0.8155 auprc 0.6874 auroc 0.9122 | gap -0.011 | 4.3GB 19min
+ep   9 | train loss 0.3764 acc 0.8234 | val loss 0.4095 bacc 0.8271 auprc 0.6757 auroc 0.9213 | gap +0.033 | 4.3GB 21min
+ep  10 | train loss 0.3787 acc 0.8187 | val loss 0.3921 bacc 0.8188 auprc 0.6680 auroc 0.9144 | gap +0.013 | 4.3GB 23min
+ep  11 | train loss 0.3645 acc 0.8326 | val loss 0.3434 bacc 0.8338 auprc 0.7297 auroc 0.9221 | gap -0.021 | 4.3GB 25min
+ep  12 | train loss 0.3619 acc 0.8295 | val loss 0.2991 bacc 0.8306 auprc 0.7162 auroc 0.9190 | gap -0.063 | 4.3GB 28min  *best
+ep  13 | train loss 0.3531 acc 0.8336 | val loss 0.2914 bacc 0.8291 auprc 0.6897 auroc 0.9184 | gap -0.062 | 4.3GB 30min  *best
+ep  14 | train loss 0.3454 acc 0.8432 | val loss 0.3568 bacc 0.8264 auprc 0.6943 auroc 0.9153 | gap +0.011 | 4.3GB 32min
+ep  15 | train loss 0.3440 acc 0.8423 | val loss 0.3046 bacc 0.8365 auprc 0.7115 auroc 0.9166 | gap -0.039 | 4.3GB 34min
+ep  16 | train loss 0.3431 acc 0.8395 | val loss 0.3424 bacc 0.8393 auprc 0.6951 auroc 0.9153 | gap -0.001 | 4.3GB 36min
+ep  17 | train loss 0.3353 acc 0.8451 | val loss 0.3024 bacc 0.8282 auprc 0.6901 auroc 0.9180 | gap -0.033 | 4.3GB 38min
+ep  18 | train loss 0.3248 acc 0.8559 | val loss 0.3024 bacc 0.8218 auprc 0.6774 auroc 0.9149 | gap -0.022 | 4.3GB 40min
+ep  19 | train loss 0.3226 acc 0.8546 | val loss 0.2934 bacc 0.8352 auprc 0.6850 auroc 0.9122 | gap -0.029 | 4.3GB 43min
+ep  20 | train loss 0.3111 acc 0.8580 | val loss 0.3159 bacc 0.8384 auprc 0.6870 auroc 0.9166 | gap +0.005 | 4.3GB 45min
+ep  21 | train loss 0.3042 acc 0.8664 | val loss 0.3327 bacc 0.8475 auprc 0.7268 auroc 0.9303 | gap +0.029 | 4.3GB 47min
+ep  22 | train loss 0.3028 acc 0.8619 | val loss 0.2999 bacc 0.8253 auprc 0.7131 auroc 0.9234 | gap -0.003 | 4.3GB 49min
+ep  23 | train loss 0.2948 acc 0.8677 | val loss 0.3107 bacc 0.8363 auprc 0.7286 auroc 0.9262 | gap +0.016 | 4.3GB 51min
+early stop: no val loss improvement for 10 epochs
+best epoch 13 | test@0.5 bacc 0.8306 auprc 0.6089 | 52 min | saved to runs\hifuse_small\seed1

@@ -1,0 +1,22 @@
+
+===== medvit_small seed 4 | 2026-10-12 19:20:48 =====
+train:  5468 images |  4211 lesions | mel  778 (0.142)
+val  :  1177 images |   903 lesions | mel  170 (0.144)
+test :  1173 images |   903 lesions | mel  165 (0.141)
+medvit_small: 31.14M params | NVIDIA GeForce RTX 5060 | amp torch.bfloat16 | 9376 training samples/epoch
+ep   1 | train loss 0.4969 acc 0.7483 | val loss 0.4124 bacc 0.7583 auprc 0.5109 auroc 0.8520 | gap -0.085 | 3.5GB 3min  *best
+ep   2 | train loss 0.4398 acc 0.7866 | val loss 0.4517 bacc 0.7729 auprc 0.5875 auroc 0.8830 | gap +0.012 | 3.5GB 5min
+ep   3 | train loss 0.4228 acc 0.7968 | val loss 0.4525 bacc 0.8154 auprc 0.6437 auroc 0.9033 | gap +0.030 | 3.5GB 6min
+ep   4 | train loss 0.3989 acc 0.8104 | val loss 0.2616 bacc 0.8005 auprc 0.6767 auroc 0.9164 | gap -0.137 | 3.5GB 7min  *best
+ep   5 | train loss 0.3968 acc 0.8161 | val loss 0.3150 bacc 0.8270 auprc 0.6884 auroc 0.9183 | gap -0.082 | 3.5GB 9min
+ep   6 | train loss 0.3918 acc 0.8186 | val loss 0.3416 bacc 0.8177 auprc 0.6852 auroc 0.9116 | gap -0.050 | 3.5GB 10min
+ep   7 | train loss 0.3883 acc 0.8195 | val loss 0.3488 bacc 0.8126 auprc 0.6555 auroc 0.9014 | gap -0.040 | 3.5GB 11min
+ep   8 | train loss 0.3803 acc 0.8242 | val loss 0.3735 bacc 0.8180 auprc 0.7008 auroc 0.9166 | gap -0.007 | 3.5GB 13min
+ep   9 | train loss 0.3755 acc 0.8292 | val loss 0.3731 bacc 0.8141 auprc 0.7387 auroc 0.9253 | gap -0.002 | 3.5GB 14min
+ep  10 | train loss 0.3717 acc 0.8279 | val loss 0.3305 bacc 0.8279 auprc 0.7219 auroc 0.9251 | gap -0.041 | 3.5GB 16min
+ep  11 | train loss 0.3639 acc 0.8343 | val loss 0.3230 bacc 0.8262 auprc 0.7099 auroc 0.9169 | gap -0.041 | 3.5GB 17min
+ep  12 | train loss 0.3515 acc 0.8425 | val loss 0.2925 bacc 0.8301 auprc 0.7334 auroc 0.9280 | gap -0.059 | 3.5GB 18min
+ep  13 | train loss 0.3513 acc 0.8371 | val loss 0.3250 bacc 0.8308 auprc 0.7113 auroc 0.9197 | gap -0.026 | 3.5GB 20min
+ep  14 | train loss 0.3519 acc 0.8408 | val loss 0.3325 bacc 0.8118 auprc 0.6867 auroc 0.9176 | gap -0.019 | 3.5GB 21min
+early stop: no val loss improvement for 10 epochs
+best epoch 4 | test@0.5 bacc 0.7611 auprc 0.5933 | 22 min | saved to runs\medvit_small\seed4

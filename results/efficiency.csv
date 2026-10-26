@@ -1,0 +1,3 @@
+model,params_M,GMACs,GFLOPs,latency_bs1_ms_mean,latency_bs1_ms_sd,latency_bs1_ms_median,throughput_bs32_img_per_s,peak_inference_mem_MB_bs1,train_runs,train_minutes_mean,train_minutes_sd,epochs_run_mean,minutes_per_epoch,peak_train_mem_GB
+HiFuse-Small,123.26,18.25,36.49,26.57,0.28,26.51,223.6,677.8,5,57.0,13.9,25.2,2.27,4.44
+MedViT-Small,31.14,5.86,11.71,27.62,0.56,27.55,260.7,165.0,5,45.4,15.6,30.6,1.5,3.52

@@ -1,0 +1,11 @@
+# Install PyTorch FIRST with the CUDA 12.8 build (needed for the RTX 50-series):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+timm>=1.0.8        # MedViT imports timm (official repo pins 1.0.8)
+einops             # MedViT
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+Pillow
+tqdm

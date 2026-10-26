@@ -1,0 +1,37 @@
+
+===== hifuse_small seed 0 | 2026-10-13 04:33:07 =====
+train:  5468 images |  4211 lesions | mel  778 (0.142)
+val  :  1177 images |   903 lesions | mel  170 (0.144)
+test :  1173 images |   903 lesions | mel  165 (0.141)
+hifuse_small: 123.26M params | NVIDIA GeForce RTX 5060 | amp torch.bfloat16 | 5456 training samples/epoch | drop_path 0.2 dropout 0.1 wd 0.05 | imbalance weighted_loss (melanoma weight 2.0)
+ep   1 | train loss 0.5737 acc 0.7262 | val loss 0.3454 bacc 0.6164 auprc 0.4409 auroc 0.8014 | gap -0.228 | 4.5GB 3min  *best
+ep   2 | train loss 0.4902 acc 0.8116 | val loss 0.3387 bacc 0.5803 auprc 0.4439 auroc 0.7901 | gap -0.152 | 4.3GB 5min  *best
+ep   3 | train loss 0.4548 acc 0.8292 | val loss 0.3291 bacc 0.6004 auprc 0.4465 auroc 0.8100 | gap -0.126 | 4.3GB 6min  *best
+ep   4 | train loss 0.4331 acc 0.8411 | val loss 0.3257 bacc 0.6858 auprc 0.5266 auroc 0.8516 | gap -0.107 | 4.3GB 8min  *best
+ep   5 | train loss 0.4246 acc 0.8481 | val loss 0.3129 bacc 0.7225 auprc 0.5359 auroc 0.8651 | gap -0.112 | 4.3GB 10min  *best
+ep   6 | train loss 0.4159 acc 0.8453 | val loss 0.2791 bacc 0.6498 auprc 0.5777 auroc 0.8759 | gap -0.137 | 4.3GB 11min  *best
+ep   7 | train loss 0.4022 acc 0.8493 | val loss 0.3667 bacc 0.7748 auprc 0.5617 auroc 0.8793 | gap -0.035 | 4.3GB 13min
+ep   8 | train loss 0.3878 acc 0.8492 | val loss 0.2794 bacc 0.7789 auprc 0.6390 auroc 0.9042 | gap -0.108 | 4.3GB 15min
+ep   9 | train loss 0.3810 acc 0.8552 | val loss 0.2943 bacc 0.7157 auprc 0.5817 auroc 0.8783 | gap -0.087 | 4.3GB 16min
+ep  10 | train loss 0.3787 acc 0.8515 | val loss 0.2566 bacc 0.7228 auprc 0.6421 auroc 0.9026 | gap -0.122 | 4.3GB 17min  *best
+ep  11 | train loss 0.3691 acc 0.8602 | val loss 0.2905 bacc 0.7554 auprc 0.6167 auroc 0.8879 | gap -0.079 | 4.3GB 19min
+ep  12 | train loss 0.3662 acc 0.8651 | val loss 0.2520 bacc 0.7366 auprc 0.6730 auroc 0.9050 | gap -0.114 | 4.3GB 20min  *best
+ep  13 | train loss 0.3556 acc 0.8651 | val loss 0.2659 bacc 0.7965 auprc 0.6682 auroc 0.9151 | gap -0.090 | 4.3GB 21min
+ep  14 | train loss 0.3506 acc 0.8653 | val loss 0.2536 bacc 0.6974 auprc 0.6577 auroc 0.9024 | gap -0.097 | 4.3GB 23min
+ep  15 | train loss 0.3469 acc 0.8713 | val loss 0.2458 bacc 0.7537 auprc 0.6877 auroc 0.9080 | gap -0.101 | 4.3GB 24min  *best
+ep  16 | train loss 0.3435 acc 0.8737 | val loss 0.2399 bacc 0.7644 auprc 0.6845 auroc 0.9166 | gap -0.104 | 4.3GB 26min  *best
+ep  17 | train loss 0.3359 acc 0.8730 | val loss 0.2446 bacc 0.8133 auprc 0.7133 auroc 0.9259 | gap -0.091 | 4.3GB 27min
+ep  18 | train loss 0.3308 acc 0.8766 | val loss 0.2474 bacc 0.8059 auprc 0.6832 auroc 0.9213 | gap -0.083 | 4.3GB 28min
+ep  19 | train loss 0.3299 acc 0.8745 | val loss 0.2358 bacc 0.7748 auprc 0.7122 auroc 0.9225 | gap -0.094 | 4.3GB 30min  *best
+ep  20 | train loss 0.3223 acc 0.8798 | val loss 0.2354 bacc 0.7885 auprc 0.7096 auroc 0.9240 | gap -0.087 | 4.3GB 31min  *best
+ep  21 | train loss 0.3211 acc 0.8823 | val loss 0.2302 bacc 0.7919 auprc 0.7185 auroc 0.9282 | gap -0.091 | 4.3GB 33min  *best
+ep  22 | train loss 0.3100 acc 0.8869 | val loss 0.2286 bacc 0.8228 auprc 0.7303 auroc 0.9247 | gap -0.081 | 4.3GB 34min  *best
+ep  23 | train loss 0.3083 acc 0.8875 | val loss 0.2309 bacc 0.7998 auprc 0.7146 auroc 0.9226 | gap -0.077 | 4.3GB 35min
+ep  24 | train loss 0.3046 acc 0.8820 | val loss 0.2351 bacc 0.8290 auprc 0.7333 auroc 0.9285 | gap -0.070 | 4.3GB 37min
+ep  25 | train loss 0.3039 acc 0.8913 | val loss 0.2452 bacc 0.8285 auprc 0.7287 auroc 0.9254 | gap -0.059 | 4.3GB 38min
+ep  26 | train loss 0.2952 acc 0.8941 | val loss 0.2454 bacc 0.8320 auprc 0.7330 auroc 0.9257 | gap -0.050 | 4.3GB 39min
+ep  27 | train loss 0.2877 acc 0.8950 | val loss 0.2440 bacc 0.8379 auprc 0.7305 auroc 0.9278 | gap -0.044 | 4.3GB 41min
+ep  28 | train loss 0.2947 acc 0.8931 | val loss 0.2384 bacc 0.8408 auprc 0.7355 auroc 0.9281 | gap -0.056 | 4.3GB 42min
+ep  29 | train loss 0.2918 acc 0.8931 | val loss 0.2406 bacc 0.8359 auprc 0.7311 auroc 0.9273 | gap -0.051 | 4.3GB 43min
+early stop: no val loss improvement for 7 epochs
+best epoch 22 | test@0.5 bacc 0.7687 auprc 0.6477 | 47 min | saved to runs_reg_tune\strong_w2\hifuse_small\seed0

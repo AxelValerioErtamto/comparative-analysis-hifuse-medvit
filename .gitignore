@@ -1,0 +1,6 @@
+data/
+third_party/
+*.pt
+*.pth
+*.zip
+__pycache__/
